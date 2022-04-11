@@ -63,7 +63,3 @@ HairAndFemale <-filter(HairAndGender, gender == "Female")
 HairAndMale <-filter(HairAndGender, gender == "Male")
 
 bind_rows(HairAndFemale,HairAndMale)
-
-#Optional Task: add any of the other functions 
-#you learned about from the dplyr package
-
